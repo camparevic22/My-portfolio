@@ -4,6 +4,9 @@ body
     margin: 0;
     padding: 0;
     background-color: #fff;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Bad+Script&family=Marck+Script&family=Playball&display=swap&subset=latin-ext');
@@ -121,7 +124,7 @@ body
 #about
 {
     background-color: #d3d2d2;
-    margin-top: 350px;
+    margin-top: 570px;
     font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
 }
